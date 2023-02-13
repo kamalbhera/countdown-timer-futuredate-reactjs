@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app__title {
+  font-size: clamp(40px, 8vh, 300px);
+  font-family: "Georgia";
+  margin: 2.3vh;
+}
+.app__title_timerDone {
+  composes: app__title;
+  margin: 0;
+}
+
+h2 {
+  font-size: clamp(15px, 2vh, 50px);
+}
+
+h3 {
+  font-family: "Georgia";
+  margin: 0.5vh;
+  font-size: clamp(15px, 2vh, 50px);
+}
+
+p {
+  font-size: clamp(10px, 1.3vh, 50px);
+}

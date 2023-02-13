@@ -1,0 +1,19 @@
+.inputs {
+  display: flex;
+  width: auto;
+  padding: 3vh;
+  position: relative;
+  left: 1vw;
+}
+.input_item {
+  height: 5.5vh;
+  margin-right: 0.7vw;
+}
+
+.input_actionButton {
+  composes: input_item;
+  cursor: pointer;
+  position: relative;
+  bottom: 0.7vh;
+  right: 0.5vw;
+}

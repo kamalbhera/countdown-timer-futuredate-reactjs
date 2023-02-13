@@ -1,0 +1,23 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title__topRow {
+  display: flex;
+}
+
+.title__doneMessage {
+  position: relative;
+  bottom: 1vh;
+}
+
+.title__helpIcon {
+  position: relative;
+  top: 6vh;
+}
+p {
+  margin: 0.5vh;
+}
